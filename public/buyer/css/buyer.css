@@ -1,0 +1,1050 @@
+/* ----------category------------ */
+.category-container{
+    margin: 0 0 0 0;
+    width: 100%;
+}
+.categ-body{
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+.navigation-categ{
+  min-height: 900px;
+  display: inline-block;
+  padding: 10px;
+  width: 250px;
+  background-color: white;
+  color: orangered;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid orange;
+  position: relative;
+  overflow:auto;
+}
+.title-nav-categ{
+  position: fixed relative;
+  width: 100%;
+  text-align: center;
+}
+.navigation-categ hr{
+  margin: 5px 0;
+}
+.nav-body-categ{
+  width: 180px;
+  height: 80vh;
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  overflow:auto;
+  flex-direction: column;
+}
+.body-product-categ{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+}
+.body-product-categ a,.navigation-categ a{
+  text-decoration: none;
+  color: black;
+}
+.body-product-categ a:hover,.navigation-categ a:hover{
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+}
+
+/* -----------Cart------------- */
+.cart-container{
+    margin: 10px 0 80px 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+}
+
+.cart-shop-body{
+  width: 100%;
+  height: 90%;
+  margin:2px 0 10px 0;
+  z-index: 1;
+  /* border: 1px solid orangered; */
+  /* background-color: orangered; */
+}
+
+.items-cart{
+  z-index: -1;
+  border-color: white;
+}
+.cart-shop-name{
+  background-color: orangered;
+  padding: 3px;
+  color: white;
+  margin-left: 20px;
+  z-index: 1;
+  border-radius: 0 0 5px 0;
+}
+.cart-shop-body hr{
+  margin: 0;
+  border-color: orangered;
+}
+.qty-cart-body{
+  border: 1px solid grey;
+}
+
+
+.qty-cart-body input[type=number]::-webkit-inner-spin-button,
+.qty-cart-body input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-appearance: textfield;
+  appearance: none;
+  border: none;
+}
+.qty-cart-body input{
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  text-align: center;
+  border: none;
+}
+.qty-cart-body input:focus{
+  outline: none;
+}
+.qty-cart-body button{
+  margin: 0;
+  width: 20px;
+  background-color: white;
+  border: none;
+}
+.shop-name-cart-chkbox{
+  margin-right: -20px;
+  z-index: 0;
+}
+.prd-name-cart{
+  display: block;
+  width: 95px;
+  white-space: nowrap;
+  overflow:hidden;
+  max-width: 13ch;
+  text-overflow: ellipsis;
+}
+.delete-cart-button{
+  border: none;
+  width: 10px;
+  padding: 0;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 10px;
+}
+.delete-cart-button:hover{
+  opacity: 0.8;
+}
+.delete-cart-button:active{
+  opacity: 0.5;
+}
+.delete-cart-button:focus{
+  outline: none;
+  border: none;
+}
+
+.payment-info {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+
+.cart {
+  background: #fff;
+}
+
+.p-about {
+  font-size: 12px;
+}
+
+.table-shadow {
+  -webkit-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+  box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+}
+
+.paymentType {
+  font-weight: 400;
+  font-size: 10px;
+}
+.paymentMethodBody{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: end;
+  width: 100%;
+}
+.paymentMethodBody img{
+  width: 35px;
+  height: 32px;
+}
+label.radio {
+  cursor: pointer;
+}
+  
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+  border: none;
+  outline: none;
+}
+
+label.radio span {
+  padding: 1px 12px;
+  display: inline-block;
+  color: #8f37aa;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 300;
+  outline: none;
+  border: none;
+}
+
+label.radio input:checked + span {
+  background-color: blue;
+  color: #fff;
+  outline: none;
+  border: 2px solid white;
+}
+
+.credit-inputs {
+  background: rgb(102,102,221);
+  color: #fff !important;
+  border-color: rgb(102,102,221);
+}
+
+.credit-inputs::placeholder {
+  color: #fff;
+  font-size: 13px;
+}
+
+.credit-card-label {
+  font-size: 9px;
+  font-weight: 300;
+}
+
+.form-control.credit-inputs:focus {
+  background: rgb(102,102,221);
+  border: rgb(102,102,221);
+}
+
+.line {
+  border-bottom: 1px solid white;
+}
+
+.information span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.information {
+  margin-bottom: 5px;
+}
+
+.items {
+  -webkit-box-shadow: 5px 5px 4px -1px rgba(0,0,0,0.25);
+  box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08);
+}
+
+.spec {
+  font-size: 11px;
+}
+.note-for-seller{
+  width: 100%;
+  margin: 10px 0;
+  transition: width 5s ease-in-out;
+  z-index: 1;
+}
+.note-for-seller i{
+  z-index: 1;
+  padding: 5px 0;
+}
+.note-for-seller textarea{
+  transition: width 2s ease-in-out;
+  width: 100%;
+  height: 50px;
+  color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid orangered;
+  resize: none;
+  margin: 0 0 0 0;
+  z-index: 0;
+}
+.note-for-seller textarea:focus{
+  outline: none;
+}
+.noteforseller-body{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.noteforseller-body button{
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.shipment-address{   
+  font-size: 12px;
+}
+.shipment-address p{
+  color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 11px;
+  background-color: white;
+}
+.checkout-body-button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkout-btn{
+  width: 80%;
+  height: 30px;
+  background-color: orangered;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.checkout-btn:hover{
+  opacity: 0.8 ;
+}
+.checkout-btn:focus{
+  border: none;
+  outline: none;
+}
+.checkout-btn:active{
+  border: none;
+  outline: none;
+  opacity: 0.5;
+}
+.select-shipment{
+  font-size: 13px;
+  width: 100%;
+  border: none;
+  height: 35px;
+}
+.select-shipment:focus{
+  border: none;
+  outline: none;
+}
+
+/* ------------Mall------------ */
+.mall-container{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.body-mall{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-bottom: 60px; */
+}
+
+.shop-body-card::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.shop-body-card::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  opacity: 0.5;
+}
+
+.shop-body-card::-webkit-scrollbar-thumb {
+  background: #888;
+  opacity: 0.4;
+}
+.card-shop-mall{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  border: 1px solid orange;
+  margin: 10px 15px;
+  padding: 0 10px 0 0;
+  overflow: auto;
+  border-radius: 5px;
+  /* box-shadow: 2px 2px 5px rgba(242, 109, 0, 0.5); */
+}
+.shop-header-card{
+  display: flex;
+  width: 100%;
+  height: 35%;
+
+}
+.shop-header-card img{
+  height: 75px;
+  width: 75px;
+}
+.shop-body-card{
+  width: 100%;
+  height: 70%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  overflow: auto;
+  display: flex;
+}
+.shop-title-mall{
+  width: auto;
+  color: black;
+  padding: 10px 5px;
+}
+.shop-title-mall h4{
+  margin: 0;
+}
+.card-shop-product{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 120px;
+  background-color: white;
+  margin: 10px 8px;
+}
+
+.card-shop-product a,.shop-detail-body a,.body-mall a{
+  text-decoration: none;
+  color: black;  
+}
+.card-shop-product a:hover,.card-shop-product a:active,.shop-detail-body a:hover,.shop-detail-body a:active,.body-mall a:hover,.body-mall a:active{
+  text-decoration: none;
+  opacity: 0.8;
+  color: black;
+}
+.card-shop-product img{
+  height: 99px;
+  width: 99px;
+}
+.card-shop-product h5{
+  margin: 0;
+  padding: 2px;
+}
+
+
+
+/* ------------login----------- */
+.login-container{
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+}
+.login-body{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 100%;    
+}
+
+.login-body-form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-title-sign{
+  width: 20%;
+}
+.login-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.login-emphone,.login-password{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    width:98%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.password-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-emphone:focus,.login-password:focus,.login-button:focus{
+    outline: none;
+}
+.login-emphone:hover,.login-password:hover{
+    box-shadow: 5px 5px 10px rgba(238, 75, 5, 0.974);
+    transition: 0.5s;
+}
+.login-button{
+    text-align: center;
+    background-color: orangered;
+    margin: 20px auto;
+    width:80%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+
+    font-size: 18px;
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+}
+.login-button:hover{
+    color: yellow;
+
+}
+.login-button:active{
+    opacity: 0.5;
+    outline: none;
+    border: none;
+}
+.modal-forgot-password{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  position: fixed;
+  border:1px solid black;
+}
+.background-fpass{
+  background-color: black;
+  opacity: 0.3;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* -----------Sign Up------------- */
+.signup-container{
+    margin: 20px 0 0 0;  
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    padding-bottom: 100px;
+}
+
+.register{  
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  
+}
+.signup-via{
+  width: 90%;
+}
+.email-signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.phone-signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.verification-signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.phone-signup select{
+  width: 60px;
+  height: 40px;
+  border: none;
+  overflow: hidden;
+
+}
+
+.phone-signup select:active{
+  outline: none;
+  border: none;
+
+}
+.phone-signup select:focus{
+  outline: none;
+  border-color: orange;
+}
+.phone-signup select option{
+  outline: none;
+  border: none;
+}
+.signup-title{
+  margin:0 ;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.password-body-signup{
+  width: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verify-signup{
+  height: 40px;
+  border: none;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+}
+.verify-signup-text{
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  padding: 5px 20px;
+}
+.password-signup{
+  height: 40px;
+  border: none;
+  background-color: white;
+}
+.password-signup i{
+  font-size: 18px;
+}
+.cancel-signup{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.cancel-register{
+  z-index: 12;
+}
+#signupForm{
+  margin-top: 0;
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.email-signup-input{
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 0;
+  width:100% ;
+  border: none;
+  padding: 5px 20px;
+}
+.phone,.email,.password,.c-password{
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 0;
+  width:90% ;
+  border: none;
+  padding: 5px 20px;
+}
+.f-name:focus,.l-name:focus,.phone:focus,.email:focus,.password:focus,.c-password:focus,.email-signup-input:focus,.verify-signup-text:focus{
+  outline: none;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px rgba(237, 58, 4, 0.8);
+}
+.signup-button{
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width:90% ;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 20px;
+  background-color: orangered;
+  color: white;
+}
+.signup-button:hover{
+  opacity: 0.8;
+  color: yellow;
+}
+.signup-button:focus{
+  outline: none;
+}
+.signup-button:active{
+  opacity: 0.5;
+} 
+
+.agreement-modal,.agreement-privacy-modal{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.agg-modal-body{
+  margin-top: 1%;
+  position: fixed;
+  width: 400px;
+  height: 80%;
+  background-color: white;
+  z-index: 12;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  overflow: auto;
+  overflow-x: hidden;
+}
+#agreement-title{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 10%;
+  padding: 0;
+  background-color: orangered;
+}
+.bg-aggrement-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.3;
+  z-index: 1;
+  position: absolute;
+}
+
+
+/* ----------transaction------------ */
+.transaction-container{
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: 100%;
+  
+}
+.transaction-body{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+/* ----------Service Chat------------ */
+.service-chat-body{
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  padding: 0 5px 0 5px;
+  overflow-x: hidden;
+}
+.service-chat-body p{
+  border-radius: 10px;
+}
+.img-user-service-chat{
+  width: 30px;
+  height: 30px;
+}
+
+.imagePreview img{
+  width: 30px;
+}
+
+/* ----------SHOP DETAIL------------ */
+.shop-detail-container{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  padding: 0 15px 20px 15px;
+  position: relative;
+}
+.sd-bodyc{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: auto;
+}
+.shop-detail-body{
+  width: 900px;
+  height: auto;
+  margin-top: 15px;
+  background-color: white;
+  position: absolute;
+  padding: 0 0 70px 0;
+
+}
+
+.header-shop-detail{
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 0 0 10px 0;
+
+}
+.bg-shop-title{
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 0;
+  position: absolute;
+
+}
+.img-body-sd{
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.img-body-sd h3{
+  z-index: 1;
+  margin: 10px 0 0 0;
+  padding: 0;
+  color: white;
+}
+.header-shop-detail img{
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:1px solid white;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.shop-description-detail{
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+}
+.shop-description-detail h3{
+  margin: 10px 0 0 0;
+}
+.produk-terlaris-shop-detail{
+  padding:  0 20px;
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-product-shop-detail{
+  width: 150px;
+  height: 200px;
+}
+
+/* ---------PAYMENT FORM--------- */
+.index-wallet-body{
+  width: 90%;
+  margin-top:5px;
+}
+.topup-buyer-body{
+  width:80%;
+}
+.buyer-wallet-address,.buyer-select-topup-type{
+  background-color: white;
+  padding:5px;
+  width:50%;
+  margin-top:5px;
+}
+.record-buyer-topup{
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+  padding: 5px;
+}
+.button-tp-h button{
+  font-size: 12px;
+  display: flex;
+}
+/* Desktop styles */
+@media only screen and (min-width: 992px) {
+  /* Add desktop-specific styles here */
+  .img-title-sign{
+    width: 15%;
+  }
+  .login-body{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 100%;    
+  }
+  .register{  
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 100%; 
+    background-color: white;
+    
+  }
+
+  .card-shop-mall{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    height: 250px;
+    background-color: white;
+    border: 1px solid orange;
+    margin: 10px 15px;
+    padding: 0 10px 0 0;
+    overflow: auto;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 5px rgba(242, 109, 0, 0.5); */
+  }
+  .record-buyer-topup{
+    background-color: white;
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+  }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+  .shop-detail-body{
+    margin-top: 15px;
+    width: 700px;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    
+  }
+}
+  
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  .shop-detail-body{
+    margin-top: 15px;
+    width: 99%;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    padding-bottom: 70px;
+  }
+  .nav-body-categ{
+    width: 140px;
+    position: fixed;
+    overflow: auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+  .card-shop-mall{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 99%;
+    height: 290px;
+    background-color: white;
+    border: 1px solid orange;
+    overflow: auto;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 5px rgba(242, 109, 0, 0.5); */
+  }
+  .menu-button-transaction-history span{
+    font-size: 1.2vh;
+  }
+  .agg-modal-body{
+    margin-top: 1%;
+    position: relative;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .buyer-wallet-address,.buyer-select-topup-type{
+    background-color: white;
+    padding:5px;
+    width:95%;
+    margin-top:5px;
+  }
+  .button-tp-h button{
+    font-size: 10px;
+  }
+  .index-wallet-body,.topup-buyer-body{
+    width:100%;
+    padding: 0;
+    margin: 0;
+  }
+
+}

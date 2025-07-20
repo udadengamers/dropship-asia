@@ -1,0 +1,33 @@
+#shop .nav-pills .nav-link.active {
+    display: inline-block;
+    position: relative;
+    background: none;
+    color: #f53d2d;
+}
+
+#shop .nav-pills .nav-link.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 3px solid #f53d2d;
+    position: absolute;
+    left: 0;
+    bottom: -0.5em;
+}
+
+#shop .nav-pills .nav-link {
+    border-radius: 0px;
+    color: #333;
+    font-size:medium !important;
+}
+@media(max-width:576px){
+    #shop .nav-pills .nav-link {
+        font-size: smaller!important;
+    }
+    #shop .nav-link {
+        padding: 4px!important;
+    }
+    .upload-image {
+        width: 50% !important;
+    }
+}
